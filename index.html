@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amusement en JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Contactez- Nous</h1>
+
+    <form>
+      <div class="pseudo-content">
+        <label for="pseudo">Pseudo</label>
+        <input type="text" id="pseudo" min="3" max="20" />
+        <span></span>
+      </div>
+      <div class="email-content">
+        <label for="email">Email</label>
+        <input type="text" id="email" autocomplete="off" required ; />
+        <span>Email Incorrect</span>
+      </div>
+      <div class="password-content">
+        <label for="password">Mot de Passe</label>
+        <input type="password" autocomplete="off" required />
+        <p id="progress-bar"></p>
+        <span></span>
+      </div>
+      <div class="confirm-content">
+        <label for="confirm">Confirmation Mot de Passe</label>
+        <input type="password" autocomplete="off" required />
+        <span></span>
+      </div>
+
+      <input type="submit" value="Click Me ! " />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

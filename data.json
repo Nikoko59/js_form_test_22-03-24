@@ -1,0 +1,45 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vscode-edge-devtools.webhint": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.largeFileOptimizations": false,
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.wordWrap": "on",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "Poppins Light",
+    "php.suggest.basic": false,
+    "emmet.includeLanguages": {
+      "php": "html"
+    },
+    "settingsSync.ignoredSettings": [
+      "-php.validate.executablePath"
+    ],
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "window.commandCenter": false,
+    "workbench.editor.empty.hint": "hidden",
+    "editor.fontLigatures": false,
+    "editor.fontVariations": false,
+    "editor.formatOnSave": true,
+    "php.debug.executablePath": "",
+    "laravel-pint.enable": true,
+    "window.zoomLevel": -1,
+    "json.schemas": [
+      
+    ],
+    "workbench.editor.enablePreview": false,
+    "vsicons.presets.jsonOfficial": true,
+    "editor.wordWrap": "on",
+    "workbench.settings.useSplitJSON": true,
+    "workbench.settings.applyToAllProfiles": [
+      "workbench.settings.useSplitJSON"
+    ]
+  }
